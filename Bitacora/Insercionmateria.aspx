@@ -41,6 +41,33 @@
               </div>
         </div>
 
+         <div style="margin-top:50px" class="container">
+           
+            <div class="row">
+                <div class="col">                  
+                        <h2>Listado de materias&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </h2>
+                          <asp:GridView CssClass="table" ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+
+                              <Columns>
+                                
+                                <asp:TemplateField HeaderText="Editar Materia" SortExpression="[Id Especifico]"><ItemTemplate>
+                                                                  <asp:Button cssClass="btn btn-warning m-2"  ID='LinkButton2' runat="server" OnClick="EditarMateria" Text="Editar" CommandArgument='<%# Bind("[Codigo]")%>' >  </asp:Button>
+                                
+                                </ItemTemplate>
+                                </asp:TemplateField>
+                                <asp:TemplateField HeaderText="Eliminar Materia" SortExpression="[Id Especifico]"><ItemTemplate>
+                                                                  <asp:Button cssClass="btn btn-danger m-2"  ID='LinkButton3' runat="server" OnClick="EliminarMateria" Text="Eliminar" CommandArgument='<%# Bind("[Codigo]")%>' >  </asp:Button>
+                                
+                                </ItemTemplate>
+                                </asp:TemplateField>
+                             </Columns>                                                      
+                            </asp:GridView>               
+                </div>
+               
+              </div>
+        </div>
+
     </form>
 </body>
 </html>

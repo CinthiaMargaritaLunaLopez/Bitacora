@@ -3,4 +3,3 @@ C:\Users\deken\source\repos\Bitacora\ClassCapaEntidades\bin\Debug\ClassCapaEntid
 C:\Users\deken\source\repos\Bitacora\ClassCapaEntidades\obj\Debug\ClassCapaEntidades.csproj.CoreCompileInputs.cache
 C:\Users\deken\source\repos\Bitacora\ClassCapaEntidades\obj\Debug\ClassCapaEntidades.dll
 C:\Users\deken\source\repos\Bitacora\ClassCapaEntidades\obj\Debug\ClassCapaEntidades.pdb
-C:\Users\deken\source\repos\Bitacora\ClassCapaEntidades\obj\Debug\ClassCapaEntidades.csprojAssemblyReference.cache

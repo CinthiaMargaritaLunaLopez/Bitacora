@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Edicion_carrera.aspx" />
+    <Content Include="Edicion_materia.aspx" />
     <Content Include="Edicion_programa.aspx" />
     <Content Include="InsercionCarrera.aspx" />
     <Content Include="InsercionProgramaEducativo.aspx" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="Edicion_carrera.aspx.designer.cs">
       <DependentUpon>Edicion_carrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_materia.aspx.cs">
+      <DependentUpon>Edicion_materia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_materia.aspx.designer.cs">
+      <DependentUpon>Edicion_materia.aspx</DependentUpon>
     </Compile>
     <Compile Include="Edicion_programa.aspx.cs">
       <DependentUpon>Edicion_programa.aspx</DependentUpon>

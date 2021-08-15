@@ -56,13 +56,13 @@
                                   <asp:Button cssClass="btn btn-primary m-2" OnClick="VerProgramasEducativos"  ID='LinkButton1' runat="server" Text="Programas Educativos" CommandArgument='<%# Bind("[Codigo]")%>' >  </asp:Button>
                                 </itemtemplate>
                               </asp:templatefield>
-                                <asp:TemplateField HeaderText="Programas Educativos" SortExpression="[Id Especifico]"><ItemTemplate>
-                                                                  <asp:Button cssClass="btn btn-warning m-2"  OnClick="EditarCarrera"  ID='LinkButton2' runat="server" Text="Editar carrera" CommandArgument='<%# Bind("[Codigo]")%>' >  </asp:Button>
+                                <asp:TemplateField HeaderText="Editar Carrera" SortExpression="[Id Especifico]"><ItemTemplate>
+                                                                  <asp:Button cssClass="btn btn-warning m-2"  OnClick="EditarCarrera"  ID='LinkButton2' runat="server" Text="Editar" CommandArgument='<%# Bind("[Codigo]")%>' >  </asp:Button>
                                 
                                 </ItemTemplate>
                                 </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Eliminar Carrera" SortExpression="[Id Especifico]"><ItemTemplate>
-                                                                  <asp:Button cssClass="btn btn-danger m-2"  OnClick="EliminarCarrera"  ID='LinkButton3' runat="server" Text="Eliminar Carrera" CommandArgument='<%# Bind("[Codigo]")%>' >  </asp:Button>
+                                                                  <asp:Button cssClass="btn btn-danger m-2"  OnClick="EliminarCarrera"  ID='LinkButton3' runat="server" Text="Eliminar" CommandArgument='<%# Bind("[Codigo]")%>' >  </asp:Button>
                                 
                                 </ItemTemplate>
                                 </asp:TemplateField>
