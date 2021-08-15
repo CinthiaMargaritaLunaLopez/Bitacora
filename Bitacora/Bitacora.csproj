@@ -68,11 +68,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Edicion_carrera.aspx" />
+    <Content Include="Edicion_Cuatrimestre.aspx" />
+    <Content Include="Edicion_grupo.aspx" />
     <Content Include="Edicion_materia.aspx" />
     <Content Include="Edicion_programa.aspx" />
     <Content Include="InsercionCarrera.aspx" />
     <Content Include="InsercionProgramaEducativo.aspx" />
     <Content Include="Insercionmateria.aspx" />
+    <Content Include="Insercion_Cuatrimestre.aspx" />
+    <Content Include="Insercion_grupo.aspx" />
     <Content Include="Programas_Carrera.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -83,6 +87,20 @@
     </Compile>
     <Compile Include="Edicion_carrera.aspx.designer.cs">
       <DependentUpon>Edicion_carrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_Cuatrimestre.aspx.cs">
+      <DependentUpon>Edicion_Cuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_Cuatrimestre.aspx.designer.cs">
+      <DependentUpon>Edicion_Cuatrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_grupo.aspx.cs">
+      <DependentUpon>Edicion_grupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_grupo.aspx.designer.cs">
+      <DependentUpon>Edicion_grupo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Edicion_materia.aspx.cs">
       <DependentUpon>Edicion_materia.aspx</DependentUpon>
@@ -118,6 +136,20 @@
     </Compile>
     <Compile Include="Insercionmateria.aspx.designer.cs">
       <DependentUpon>Insercionmateria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Insercion_Cuatrimestre.aspx.cs">
+      <DependentUpon>Insercion_Cuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insercion_Cuatrimestre.aspx.designer.cs">
+      <DependentUpon>Insercion_Cuatrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Insercion_grupo.aspx.cs">
+      <DependentUpon>Insercion_grupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insercion_grupo.aspx.designer.cs">
+      <DependentUpon>Insercion_grupo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Programas_Carrera.aspx.cs">
       <DependentUpon>Programas_Carrera.aspx</DependentUpon>

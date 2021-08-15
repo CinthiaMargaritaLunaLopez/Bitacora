@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogicaCuatrimestre.cs" />
+    <Compile Include="LogicaGrupo.cs" />
     <Compile Include="LogicaMateria.cs" />
     <Compile Include="LogicaProgramaEducativo.cs" />
     <Compile Include="LogicaCarrera.cs" />
