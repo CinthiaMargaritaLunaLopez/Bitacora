@@ -22,7 +22,7 @@ namespace Bitacora
 
                 int id = (int)HttpContext.Current.Session["id_seleccionado"];
                 string msj = "";
-                GridView1.DataSource = objAccesoPrograma.ObtenerProgramasGrid(id,ref msj);
+                GridView1.DataSource = objAccesoPrograma.ObtenerProgramasGridPorId(id,ref msj);
                 if (GridView1.DataSource != null)
                 {
                     GridView1.DataBind();

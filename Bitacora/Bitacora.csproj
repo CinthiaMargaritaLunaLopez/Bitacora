@@ -68,8 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Edicion_carrera.aspx" />
+    <Content Include="Edicion_programa.aspx" />
     <Content Include="InsercionCarrera.aspx" />
     <Content Include="InsercionProgramaEducativo.aspx" />
+    <Content Include="Insercionmateria.aspx" />
     <Content Include="Programas_Carrera.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -80,6 +82,13 @@
     </Compile>
     <Compile Include="Edicion_carrera.aspx.designer.cs">
       <DependentUpon>Edicion_carrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_programa.aspx.cs">
+      <DependentUpon>Edicion_programa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_programa.aspx.designer.cs">
+      <DependentUpon>Edicion_programa.aspx</DependentUpon>
     </Compile>
     <Compile Include="InsercionCarrera.aspx.cs">
       <DependentUpon>InsercionCarrera.aspx</DependentUpon>
@@ -94,6 +103,13 @@
     </Compile>
     <Compile Include="InsercionProgramaEducativo.aspx.designer.cs">
       <DependentUpon>InsercionProgramaEducativo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Insercionmateria.aspx.cs">
+      <DependentUpon>Insercionmateria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insercionmateria.aspx.designer.cs">
+      <DependentUpon>Insercionmateria.aspx</DependentUpon>
     </Compile>
     <Compile Include="Programas_Carrera.aspx.cs">
       <DependentUpon>Programas_Carrera.aspx</DependentUpon>
