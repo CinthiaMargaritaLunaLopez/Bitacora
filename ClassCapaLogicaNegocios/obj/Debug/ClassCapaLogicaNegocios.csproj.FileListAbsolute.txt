@@ -1,0 +1,11 @@
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\bin\Debug\ClassCapaLogicaNegocios.dll
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\bin\Debug\ClassCapaLogicaNegocios.pdb
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\bin\Debug\ClassCapaAccesoDatos.dll
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\bin\Debug\ClassCapaEntidades.dll
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\bin\Debug\ClassCapaAccesoDatos.pdb
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\bin\Debug\ClassCapaEntidades.pdb
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\obj\Debug\ClassCapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\obj\Debug\ClassCapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\obj\Debug\ClassCapaLogicaNegocios.csproj.CopyComplete
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\obj\Debug\ClassCapaLogicaNegocios.dll
+C:\Users\deken\source\repos\Bitacora\ClassCapaLogicaNegocios\obj\Debug\ClassCapaLogicaNegocios.pdb
