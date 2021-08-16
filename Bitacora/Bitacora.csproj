@@ -73,6 +73,8 @@
     <Content Include="Edicion_GrupoCuatrimestre.aspx" />
     <Content Include="Edicion_materia.aspx" />
     <Content Include="Edicion_programa.aspx" />
+    <Content Include="img\bg2.png" />
+    <Content Include="Index.aspx" />
     <Content Include="InsercionCarrera.aspx" />
     <Content Include="InsercionGrupoCuatrimestre.aspx" />
     <Content Include="InsercionProgramaEducativo.aspx" />
@@ -124,6 +126,13 @@
     </Compile>
     <Compile Include="Edicion_programa.aspx.designer.cs">
       <DependentUpon>Edicion_programa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="InsercionCarrera.aspx.cs">
       <DependentUpon>InsercionCarrera.aspx</DependentUpon>

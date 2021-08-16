@@ -13,7 +13,7 @@ namespace ClassCapaLogicaNegocios
     public class LogicaCuatrimestre
     {
         private ClassAccesoSQL objectoDeAcceso =
-         new ClassAccesoSQL("Data Source=DESKTOP-4UCILN2\\SQLEXPRESS;Initial Catalog=Bitacora2021LabsUTP; Integrated Security=true");
+         new ClassAccesoSQL("");
 
 
         public Boolean InsertarNuevoCuatrimestre(EntidadCuatrimestre entidadCuatri, ref string msj)
