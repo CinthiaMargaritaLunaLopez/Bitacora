@@ -64,11 +64,6 @@ namespace ClassCapaLogicaNegocios
 
             };
 
-
-
-
-
-
             string sentencia = "insert into Cuatrimestre values(@periodo, @anio, @inicio, @fin, @extra)";
 
             Boolean salida = false;
@@ -132,6 +127,65 @@ namespace ClassCapaLogicaNegocios
             SqlConnection conexion = null;
 
             string query = "select * from Cuatrimestre where id_Cuatrimestre='" + id + "'";
+            conexion = objectoDeAcceso.AbrirConexion(ref msj_salida);
+
+            SqlDataReader ObtenerDatos = null;
+
+            ObtenerDatos = objectoDeAcceso.ConsultarReader(query, conexion, ref msj_salida);
+
+            List<EntidadCuatrimestre> lista = new List<EntidadCuatrimestre>();
+
+
+            DateTime fec;
+
+
+            DateTime fec2;
+
+            string var1;
+
+            string var2;
+
+            if (ObtenerDatos != null)
+            {
+                while (ObtenerDatos.Read())
+                {
+                    fec = (DateTime)ObtenerDatos[3];
+                    fec2 = (DateTime)ObtenerDatos[4];
+
+
+                    //Conversión de formato
+
+                    var1 = fec.ToString("dd-MM-yyyy");
+
+
+                    var2 = fec2.ToString("dd-MM-yyyy");
+
+                    lista.Add(new EntidadCuatrimestre
+                    {
+                        id_cuatri = (short)ObtenerDatos[0],
+                        periodo = (string)ObtenerDatos[1],
+                        anio = (int)ObtenerDatos[2],
+                        inicio = var1,
+                        fin = var2,
+                        extra = (string)ObtenerDatos[5]
+                    });
+                }
+            }
+            else
+            {
+                lista = null;
+            }
+            conexion.Close();
+            conexion.Dispose();
+
+            return lista;
+
+        }
+        public List<EntidadCuatrimestre> ObtenerListaCuatrimestres( ref string msj_salida)
+        {
+            SqlConnection conexion = null;
+
+            string query = "select * from Cuatrimestre";
             conexion = objectoDeAcceso.AbrirConexion(ref msj_salida);
 
             SqlDataReader ObtenerDatos = null;

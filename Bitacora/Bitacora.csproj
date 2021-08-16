@@ -70,9 +70,11 @@
     <Content Include="Edicion_carrera.aspx" />
     <Content Include="Edicion_Cuatrimestre.aspx" />
     <Content Include="Edicion_grupo.aspx" />
+    <Content Include="Edicion_GrupoCuatrimestre.aspx" />
     <Content Include="Edicion_materia.aspx" />
     <Content Include="Edicion_programa.aspx" />
     <Content Include="InsercionCarrera.aspx" />
+    <Content Include="InsercionGrupoCuatrimestre.aspx" />
     <Content Include="InsercionProgramaEducativo.aspx" />
     <Content Include="Insercionmateria.aspx" />
     <Content Include="Insercion_Cuatrimestre.aspx" />
@@ -102,6 +104,13 @@
     <Compile Include="Edicion_grupo.aspx.designer.cs">
       <DependentUpon>Edicion_grupo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Edicion_GrupoCuatrimestre.aspx.cs">
+      <DependentUpon>Edicion_GrupoCuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_GrupoCuatrimestre.aspx.designer.cs">
+      <DependentUpon>Edicion_GrupoCuatrimestre.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Edicion_materia.aspx.cs">
       <DependentUpon>Edicion_materia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -122,6 +131,13 @@
     </Compile>
     <Compile Include="InsercionCarrera.aspx.designer.cs">
       <DependentUpon>InsercionCarrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsercionGrupoCuatrimestre.aspx.cs">
+      <DependentUpon>InsercionGrupoCuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsercionGrupoCuatrimestre.aspx.designer.cs">
+      <DependentUpon>InsercionGrupoCuatrimestre.aspx</DependentUpon>
     </Compile>
     <Compile Include="InsercionProgramaEducativo.aspx.cs">
       <DependentUpon>InsercionProgramaEducativo.aspx</DependentUpon>
