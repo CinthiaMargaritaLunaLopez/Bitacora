@@ -1,0 +1,6 @@
+C:\Users\deken\source\repos\Bitacora\ClassCapaAccesoDatos\bin\Debug\ClassCapaAccesoDatos.dll
+C:\Users\deken\source\repos\Bitacora\ClassCapaAccesoDatos\bin\Debug\ClassCapaAccesoDatos.pdb
+C:\Users\deken\source\repos\Bitacora\ClassCapaAccesoDatos\obj\Debug\ClassCapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\deken\source\repos\Bitacora\ClassCapaAccesoDatos\obj\Debug\ClassCapaAccesoDatos.dll
+C:\Users\deken\source\repos\Bitacora\ClassCapaAccesoDatos\obj\Debug\ClassCapaAccesoDatos.pdb
+C:\Users\deken\source\repos\Bitacora\ClassCapaAccesoDatos\obj\Debug\ClassCapaAccesoDatos.csprojAssemblyReference.cache

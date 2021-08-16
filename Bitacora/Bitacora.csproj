@@ -1,0 +1,245 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89CC852C-9A79-479C-8C5C-71CA5834C1D8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bitacora</RootNamespace>
+    <AssemblyName>Bitacora</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Edicion_carrera.aspx" />
+    <Content Include="Edicion_Cuatrimestre.aspx" />
+    <Content Include="Edicion_grupo.aspx" />
+    <Content Include="Edicion_GrupoCuatrimestre.aspx" />
+    <Content Include="Edicion_materia.aspx" />
+    <Content Include="Edicion_programa.aspx" />
+    <Content Include="img\bg2.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="InsercionCarrera.aspx" />
+    <Content Include="InsercionGrupoCuatrimestre.aspx" />
+    <Content Include="InsercionProgramaEducativo.aspx" />
+    <Content Include="Insercionmateria.aspx" />
+    <Content Include="Insercion_Cuatrimestre.aspx" />
+    <Content Include="Insercion_grupo.aspx" />
+    <Content Include="Programas_Carrera.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Edicion_carrera.aspx.cs">
+      <DependentUpon>Edicion_carrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_carrera.aspx.designer.cs">
+      <DependentUpon>Edicion_carrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_Cuatrimestre.aspx.cs">
+      <DependentUpon>Edicion_Cuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_Cuatrimestre.aspx.designer.cs">
+      <DependentUpon>Edicion_Cuatrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_grupo.aspx.cs">
+      <DependentUpon>Edicion_grupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_grupo.aspx.designer.cs">
+      <DependentUpon>Edicion_grupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_GrupoCuatrimestre.aspx.cs">
+      <DependentUpon>Edicion_GrupoCuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_GrupoCuatrimestre.aspx.designer.cs">
+      <DependentUpon>Edicion_GrupoCuatrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_materia.aspx.cs">
+      <DependentUpon>Edicion_materia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_materia.aspx.designer.cs">
+      <DependentUpon>Edicion_materia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_programa.aspx.cs">
+      <DependentUpon>Edicion_programa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion_programa.aspx.designer.cs">
+      <DependentUpon>Edicion_programa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsercionCarrera.aspx.cs">
+      <DependentUpon>InsercionCarrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsercionCarrera.aspx.designer.cs">
+      <DependentUpon>InsercionCarrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsercionGrupoCuatrimestre.aspx.cs">
+      <DependentUpon>InsercionGrupoCuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsercionGrupoCuatrimestre.aspx.designer.cs">
+      <DependentUpon>InsercionGrupoCuatrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsercionProgramaEducativo.aspx.cs">
+      <DependentUpon>InsercionProgramaEducativo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsercionProgramaEducativo.aspx.designer.cs">
+      <DependentUpon>InsercionProgramaEducativo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Insercionmateria.aspx.cs">
+      <DependentUpon>Insercionmateria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insercionmateria.aspx.designer.cs">
+      <DependentUpon>Insercionmateria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Insercion_Cuatrimestre.aspx.cs">
+      <DependentUpon>Insercion_Cuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insercion_Cuatrimestre.aspx.designer.cs">
+      <DependentUpon>Insercion_Cuatrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Insercion_grupo.aspx.cs">
+      <DependentUpon>Insercion_grupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insercion_grupo.aspx.designer.cs">
+      <DependentUpon>Insercion_grupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programas_Carrera.aspx.cs">
+      <DependentUpon>Programas_Carrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programas_Carrera.aspx.designer.cs">
+      <DependentUpon>Programas_Carrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassCapaEntidades\ClassCapaEntidades.csproj">
+      <Project>{99667122-3434-42de-b457-d36b09eca6fd}</Project>
+      <Name>ClassCapaEntidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassCapaLogicaNegocios\ClassCapaLogicaNegocios.csproj">
+      <Project>{017765bc-575a-4d2f-8e62-92fbbd2013b5}</Project>
+      <Name>ClassCapaLogicaNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1073</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1073/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
